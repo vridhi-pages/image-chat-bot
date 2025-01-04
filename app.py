@@ -19,7 +19,7 @@ def main():
     st.sidebar.write("---")
 
     st.sidebar.markdown("Connect with me")
-    st.sidebar.markdown("[![Github](https://www.github.com/vridhi-pages/)]")
+    st.sidebar.markdown("https://www.github.com/vridhi-pages/")
     st.title("Image AI Chatbot")
     st.write("Provide an image and a question and let AI answer it.")
 
