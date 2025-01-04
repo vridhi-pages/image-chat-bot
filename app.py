@@ -14,6 +14,12 @@ def get_response(input, image):
     return response.text
 
 def main():
+    st.sidebar.header("About")
+    st.sidebar.markdown("This is a image based chatbot that takes input as image and text and based on it AI models generate a response.")
+    st.sidebar.write("---")
+
+    st.sidebar.markdown("Connect with me")
+    st.sidebar.markdown("[![Github](https://www.github.com/vridhi-pages/)]")
     st.title("Image AI Chatbot")
     st.write("Provide an image and a question and let AI answer it.")
 
